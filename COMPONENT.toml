@@ -3,12 +3,12 @@ name = "SigmaOS-apt-mint"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "apt-mint component"
+description = "APT integration for Linux Mint repos in SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
